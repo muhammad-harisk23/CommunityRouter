@@ -508,7 +508,7 @@ CommunityRouter is onboarding infrastructure — not a marketplace, chat system,
 
 ## Contributors
 
-- **[@uno_engineer](https://reddit.com/u/uno_engineer)** — original author and maintainer
+- **[@unp_engineer](https://reddit.com/u/unp_engineer)** — original author and maintainer
 
 ---
 
