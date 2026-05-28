@@ -150,23 +150,32 @@ Most moderation tools are **reactive**. CommunityRouter is **preventative**.
 
 ## Screenshots
 
-> *Screenshots will be added here before submission.*
+ ![dashboard
+ 
+ ](image-1.png)
 
+ ![home page
+ 
+ ](image-2.png)
+
+ ![dashboard
+ 
+ ](image-3.png)
 | View | Preview |
 |---|---|
-| **Splash page** (inline post preview) | — |
-| **Onboarding hub** (intent selection) | — |
-| **Recommendation cards** (with badges, fit scores) | — |
-| **Moderator dashboard** (category routing) | — |
-| **Analytics panel** (usage metrics) | — |
-| **Community health impact** (before/after) | — |
-| **Live preview** (user simulation) | — |
+| **Splash page** (inline post preview) | <img src="assets/screenshots/splash.png" alt="Splash page" width="320" /> |
+| **Onboarding hub** (intent selection) | <img src="assets/screenshots/onboarding-hub.png" alt="Onboarding hub" width="320" /> |
+| **Recommendation cards** (with badges, fit scores) | <img src="assets/screenshots/recommendations.png" alt="Recommendation cards" width="320" /> |
+| **Moderator dashboard** (category routing) | <img src="assets/screenshots/moderator-dashboard.png" alt="Moderator dashboard" width="320" /> |
+| **Analytics panel** (usage metrics) | <img src="assets/screenshots/analytics.png" alt="Analytics panel" width="320" /> |
+| **Community health impact** (before/after) | <img src="assets/screenshots/health-impact.png" alt="Community health impact" width="320" /> |
+| **Live preview** (user simulation) | <img src="assets/screenshots/live-preview.png" alt="Live preview" width="320" /> |
+
+> Screenshots captured in dark mode at 1440×900 viewport. Images stored in [`assets/screenshots/`](assets/screenshots/).
 
 ---
 
 ## Demo video
-
-> *Link to demo video will be added before submission.*
 
 The demo walkthrough covers:
 
