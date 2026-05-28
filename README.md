@@ -269,6 +269,16 @@ communityrouter/
 ├── vite.config.ts                   # Vite build config (React + Tailwind + Devvit)
 ├── vitest.config.ts                 # Test runner configuration
 │
+├── assets/
+│   └── screenshots/                  # README screenshots
+│       ├── splash.png
+│       ├── onboarding-hub.png
+│       ├── recommendations.png
+│       ├── moderator-dashboard.png
+│       ├── analytics.png
+│       ├── health-impact.png
+│       └── live-preview.png
+│
 ├── src/
 │   ├── client/                      # Frontend (React app, runs in Reddit iFrame)
 │   │   ├── splash.html              # Inline post preview entrypoint
@@ -276,6 +286,7 @@ communityrouter/
 │   │   ├── splash.test.ts           # Splash page tests
 │   │   ├── game.html                # Expanded view entrypoint
 │   │   ├── game.tsx                 # Main app (onboarding + moderator panel)
+│   │   ├── ErrorBoundary.tsx        # React error boundary with fallback UI
 │   │   ├── index.css                # Tailwind + theme CSS variables + animations
 │   │   └── trpc.ts                  # tRPC client configuration
 │   │
@@ -497,8 +508,7 @@ CommunityRouter is onboarding infrastructure — not a marketplace, chat system,
 
 ## Contributors
 
-- **Your Name** — [u/yourusername](https://reddit.com/u/yourusername)
-- **Team Member** — [u/teammember2](https://reddit.com/u/teammember2)
+- **[@uno_engineer](https://reddit.com/u/uno_engineer)** — original author and maintainer
 
 ---
 
