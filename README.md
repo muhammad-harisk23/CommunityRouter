@@ -492,19 +492,7 @@ CommunityRouter is onboarding infrastructure — not a marketplace, chat system,
 - Measurable impact through analytics
 - Visual and interaction quality
 
-**One-line pitch:**
 
-> *"Pre-post onboarding infrastructure that reduces chaos before moderation begins."*
-
-**Keywords for judging:**
-
-- Reducing onboarding chaos
-- Guided onboarding infrastructure
-- Proactive moderation tooling
-- Community routing and participation guidance
-- Onboarding intelligence system
-
----
 
 ## Contributors
 
