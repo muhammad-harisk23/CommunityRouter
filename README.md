@@ -72,6 +72,7 @@ Most moderation tools are **reactive**. CommunityRouter is **preventative**.
 | **Responsive layout** | Works across desktop and mobile viewports |
 
 ---
+try it link: https://www.reddit.com/r/communityrouter_dev/?playtest=communityrouter
 
 ## Architecture overview
 
