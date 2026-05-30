@@ -23,6 +23,9 @@
   --accent-glow: rgba(251, 146, 60, 0.2);
   --accent-soft: rgba(251, 146, 60, 0.08);
 
+  --button-text: #140c05;
+  --focus-ring-offset: #0c0f18;
+
   --scrollbar-thumb: rgba(251, 146, 60, 0.45);
   --scrollbar-track: rgba(255, 255, 255, 0.04);
 
@@ -65,6 +68,9 @@
   --accent-primary: #b45309;
   --accent-glow: rgba(180, 83, 9, 0.08);
   --accent-soft: rgba(180, 83, 9, 0.05);
+
+  --button-text: #111318;
+  --focus-ring-offset: #F6F3EE;
 
   --input-bg: #FFFFFF;
   --input-border: rgba(0, 0, 0, 0.10);
@@ -189,7 +195,7 @@ body,
 
 [data-theme='light'] [class*='text-[#140c05]'],
 [data-theme='light'] [class*='text-[#150c05]'] {
-  color: #ffffff;
+  color: var(--button-text);
 }
 
 [data-theme='light'] [class*='bg-orange-300'] {
@@ -229,7 +235,7 @@ body,
 }
 
 [data-theme='light'] [class*='ring-offset-[#0c0f18]'] {
-  --tw-ring-offset-color: var(--bg-primary) !important;
+  --tw-ring-offset-color: var(--focus-ring-offset) !important;
 }
 
 [data-theme='light'] input,
