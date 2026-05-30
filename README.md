@@ -318,8 +318,6 @@ communityrouter/
 │
 ├── .prettierrc                      # Code formatting config
 ├── eslint.config.js                 # Linting config
-├── AGENTS.md                        # AI coding assistant instructions
-└── master-context.md                # Product vision document
 ```
 
 ---

@@ -20,7 +20,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
     return { hasError: true, error };
   }
 
-  componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
+  override componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
     console.error('[CommunityRouter] Unhandled error:', error, errorInfo);
   }
 
@@ -28,17 +28,14 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
     this.setState({ hasError: false, error: null });
   };
 
-  render() {
+  override render() {
     if (this.state.hasError) {
       if (this.props.fallback) {
         return this.props.fallback;
       }
 
       return (
-        <main
-          className="flex min-h-screen items-center justify-center p-6"
-          style={{ background: '#07080d', color: '#ffffff' }}
-        >
+        <main className="error-boundary-container flex min-h-screen items-center justify-center p-6">
           <div className="mx-auto w-full max-w-md text-center">
             <div className="mx-auto grid h-14 w-14 place-items-center rounded-2xl border border-red-400/20 bg-red-400/10 text-lg font-semibold text-red-200">
               !
